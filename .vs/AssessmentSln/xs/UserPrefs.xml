@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{595D8BF9-AF86-4455-9A2D-44944BE5B8CF}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assessment.Api PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assessment.Application/Services/ApplicationUserService.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Repositories/CustomerRepository.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/ApplicationUserConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/BaseConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/CustomerBranchConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/CustomerConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/CustomerRetainerConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/RetainerConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/TechnicianConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/TicketConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Infrastructure/Data/Configurations/WorkOrderConfiguration.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Api/Startup.cs" Line="43" Column="13" />
+      <File FileName="Assessment.Api/Controllers/CustomerController.cs" Line="28" Column="1" />
+      <File FileName="Assessment.Application/Interfaces/ICustomerRepository.cs" Line="11" Column="37" />
+      <File FileName="Assessment.Api/Controllers/ApplicationUserController.cs" Line="1" Column="1" />
+      <File FileName="Assessment.Api/Program.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AssessmentSln" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Volumes/Macintosh HD/Developer/assessment/Assessment.Api/Controllers/CustomerController.cs" relfile="Assessment.Api/Controllers/CustomerController.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

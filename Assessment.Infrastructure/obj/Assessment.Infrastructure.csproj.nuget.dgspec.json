@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Macintosh HD/Developer/assessment/Assessment.Infrastructure/Assessment.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Macintosh HD/Developer/assessment/Assessment.Application/Assessment.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Application/Assessment.Application.csproj",
+        "projectName": "Assessment.Application",
+        "projectPath": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Application/Assessment.Application.csproj",
+        "packagesPath": "/Users/dev/.nuget/packages/",
+        "outputPath": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Macintosh HD/Developer/assessment/Assessment.Infrastructure/Assessment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Infrastructure/Assessment.Infrastructure.csproj",
+        "projectName": "Assessment.Infrastructure",
+        "projectPath": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Infrastructure/Assessment.Infrastructure.csproj",
+        "packagesPath": "/Users/dev/.nuget/packages/",
+        "outputPath": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Volumes/Macintosh HD/Developer/assessment/Assessment.Application/Assessment.Application.csproj": {
+                "projectPath": "/Volumes/Macintosh HD/Developer/assessment/Assessment.Application/Assessment.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
